@@ -1,0 +1,102 @@
+
+*{  font-family: "Manrope", sans-serif;  font-optical-sizing: auto;   color: #000000;}
+
+
+/* Estilos generales */
+
+body { font-family: sans-serif; margin: 0; }
+header { background: linear-gradient(to right, #ffffff, #ffffff); color: rgb(8, 8, 8); padding-left: 80px; padding-right: 20px;}
+.hero { text-align: center; align-content: center;    position: relative; }
+.hero h1 { font-size: 80px; margin-bottom: 20px; font-weight: 600; padding-right: 80px; padding-left: 80px; text-decoration: none; }
+.hero img { height: 330px; width: 280px; position: absolute; z-index: 2; justify-content: center; margin-left: -150px; margin-top: 80px;}
+.hero div {  margin-top: 200px; margin-left: 50px; width: 90%; height: 1200px; background-color: #dba9fe; border-radius: 50%; position: absolute; clip-path: polygon(0 0, 100% 0, 100% 20%, 0 20%);  z-index: 1;  justify-content:center}
+
+.cta-button { background-color: rgba(140, 48, 245, 1); color: white; padding: 15px 30px; margin-right: 31px; border: none; border-radius: 7px; cursor: pointer; font-size: large;}
+
+
+/* Barra de navegación */
+nav { display: flex; align-items: center;  border-bottom:#e3e2e2 solid 1px; }
+.nav-links { list-style: none; margin: 0; padding: 20px; display: flex;     justify-content: flex-start;
+    margin-top: 5px;}
+.nav-links li { margin-right: 20px; text-decoration: none; }
+.nav-links li a { text-decoration: none; font-weight: 600;}
+.nav-links li a svg { text-decoration: none; font-weight:600; margin-left: -13px; margin-top: 3px; }
+.app-buttons {  display: flex;  justify-content: flex-end; margin-top: -50px; }
+.app-buttons svg { height: 40px; margin: 0 5px; }
+
+/* Sección Clientes */
+.clients { text-align: center; width: 100%; padding: 40px 0px; margin-top: 70px; margin-bottom: 60px;  position: absolute; z-index: 3; background-color: white; }
+.clients svg{ margin: 0 38px; height: 50px;  } /* Logos en escala de grises */
+
+/* Sección Características */
+.features { padding: 50px 0; text-align: center; margin-top: 320px; padding-top: 150px;    position: relative; }
+.features::before { content: ''; position: absolute; top: 50%; right: 320px; transform: translate(50%, -50%); width: 500px; height: 500px; background-color: rgba(241, 228, 255, 1); border-radius: 50%; z-index: -1; }
+
+ h2 { text-align: left; margin-top: 150px; font-weight: 700; font-size: 40px; padding-left: 40px; }
+.feature-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; padding: 60px; margin-left: 80px; margin-right: 80px; }
+.feature-grid div {background-color: white;   border-radius: 10px; height: 150px; margin: 15px; margin-top: 0px; padding: 20px; -webkit-box-shadow: 3px 23px 35px -29px rgba(0,0,0,0.75);-moz-box-shadow: 3px 23px 35px -29px rgba(0,0,0,0.75); box-shadow: 3px 23px 35px -29px rgba(0,0,0,0.75); }
+.feature-grid div h3 { font-weight: 600; margin-right: 135px; text-align: left; line-height: 1.8; margin-bottom: 35px;}
+.feature-grid div svg {margin-right: 148px;}
+.feature div {  margin-top: 200px; margin-left: 50px; width: 1200px; height: 1200px; background-color: #dba9fe; border-radius: 100%; position: absolute; clip-path: polygon(0 0, 100% 0, 100% 20%, 0 20%);  z-index: 1;  justify-content:center}
+
+
+
+.feature-grid img { height: 50px; margin-bottom: 10px; }
+
+/* Testimonio */
+.testimonial { background-color: #d3ebf7; padding: 50px; text-align: center; }
+.testimonial p { font-size: 1.0em; margin-top: 130px; text-align: justify; line-height: 1.8; margin-left: 125px; margin-right: 100px ; }
+.testimonial h3 {text-align: left; margin-left: 120px; color: rgb(55, 205, 222);}
+.testimonial h4 {text-align: left; margin-left: 120px;}
+.testimonial-author { display: flex; align-items: center; justify-content: center; }
+.testimonial svg {float: left; margin-top: 98px; margin-left: -550px; position:absolute}
+.testimonial-author img { height: 556px; width: 350px; float: left; margin-left: 650px; margin-top: -400px; }
+.testimonial-author svg {float: left; margin-top: 70px; margin-left: -500px; }
+
+/* Pie de página */
+
+
+.some { background:  rgba(140, 48, 245, 1); position: relative; overflow: hidden; padding-bottom: 60px; margin-top: -50px;}
+.some::before {content: ''; position: absolute; top: 0; left: 0;width: 100%; height: 100%; background-image: url('./imagenes/vector_fondo.svg'); opacity: 0.5; pointer-events: none;}
+.some blockquote {text-align: center; color: #ffffff; padding: 35px; margin: 0px; font-size: 50px; margin-top: 10px; font-weight: 700;}
+.some blockquote h1 {text-align: center; color: #ffffff; font-size: 50px; font-weight: 700;}
+.some blockquote p { text-align: center; color: #ffffff; font-size: 20px; font-weight: 400; margin-top: -10px; margin-bottom: 80px;}
+
+.grid-container { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; width: 100%; margin-top: -20px; box-sizing: border-box;}
+.grid-item {color: #fff; font-size: 20px; text-align: center; border-right: 1px solid white; height: 120px; }
+.grid-item h2 { color: #fff;font-size: 50px; text-align: center; font-weight: 700; margin-top: 5px;}
+.grid-item p {color: #fff; font-size: 20px; text-align: center; font-weight: 400; margin-top: -20px;}
+.grid-item-2 {color: #fff; font-size: 20px; text-align: center; border-right: 1px solid white;  height: 120px;}
+.grid-item-2 h2 {color: #fff; font-size: 50px; text-align: center;  font-weight: 700; margin-top: 5px; }
+.grid-item-2 p {color: #fff; font-size: 20px; text-align: center;font-weight: 400;margin-top: -20px;}
+
+.headline{ background-color: #ffffff; padding: 50px; text-align: center; overflow: hidden; }
+.headline div { float: left; width: 50%; /* Ajusta el ancho según sea necesario */ box-sizing: border-box;text-align: left;padding: 80px;}
+.headline div img{ width: 100%; }
+.headline div strong{ color: rgba(46, 197, 206, 1); font-size: 14px; }
+.headline div p{ color: rgba(24, 25, 31, 1); font-size: 18px; font-weight: lighter ;}
+.headline div .subtitulo{ color:rgba(24, 25, 31, 1); font-size: 40px; font-weight: bold;}
+.headline div a{ color: rgba(140, 48, 245, 1); font-size: 20px; font-weight: bold; justify-content: center;}
+
+
+
+.descargar{ background-color: rgba(213, 250, 252, 1); text-align: center;overflow: hidden; }
+.descargar div{ background-color: rgba(46, 197, 206, 1); margin-top: 50px ; margin-bottom: 50px; margin-left:10% ; margin-right: 10%; border-radius: 5px; overflow: hidden; text-align: right; display: grid ;justify-content: left; }
+.fondodescargar{ background-image: url('Imagenes/Imagenfondo.png'); background-repeat: no-repeat; background-size: cover;    background-position: right;}
+.descargar div div{ text-align: left; margin-top: 0px ; margin-bottom: 0px; margin-left: 0px ; margin-right: 0px; width: 55%;  }
+ .descargar div div p{margin:60px;}
+ .btndescargar { background-color: white; color: rgba(140, 48, 245, 1); padding: 10px 20px;  border: none; border-radius: 7px; cursor: pointer; font-size: large;}
+
+/* Pie de página */
+footer {     background-color:rgba(11, 13, 23, 1);    color: #fff;    padding: 20px;    text-align: center;}
+footer h3{color: white; margin-left: px;}
+footer .footer-top {    display: flex;    justify-content: space-around;}
+footer .footer-column { text-align: left;}
+footer .footer-bottom { color: white;  margin-top: 20px;}
+footer .footer-bottom div { color: rgba(217, 219, 225, 1); text-align:left; margin-top: 50px; border-top: rgba(255, 255, 255, 1) solid 1px; }
+footer .footer-bottom p { color: rgba(217, 219, 225, 1); text-align:left; margin-top: 20px; text-align: left; font-size: 15px; }
+footer a {color: #fff;    text-decoration: none; line-height: 2.8;}
+footer ul, footer ol {    list-style-type: none;  }
+
+.redes{ display: flex; justify-content: flex-end; margin-top: -60px; margin-right: 20px;}
+.redes svg{ padding: 4px;}
